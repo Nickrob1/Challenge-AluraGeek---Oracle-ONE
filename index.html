@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <script src="js/script.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <img class="logo__imagen" src="Assets/image 1.png" >
+        <h1 class="logo__titulo"> AluraGeek</h1>
+    </header>
+
+    <main class="contenedor">
+
+        <section class="productos">
+            <h2 class="productos__titulo">Mis productos:</h2>
+            <ul class="productos__lista" data-lista>
+               
+            </ul>
+        </section>
+
+        <form class="agregar" data-form>
+            <h2 class="agregar__titulo">AGREGAR PRODUCTO:</h2>
+            <input class="agregar__input" placeholder="Nombre..." data-nombre>
+            <input class="agregar__input" placeholder="Precio..." data-precio>
+            <input class="agregar__input" placeholder="Imagen..." data-imagen>
+            <div class="agregar__botones">
+                <button data-enviar="">Enviar</button>
+                <button data-limpiar>Limpiar</button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <div class="footer_logo">
+            <img src="Assets/image 1.png">
+            <h3 class="logo__titulo">AluraGeek</h3>
+        </div>
+        <div class="footer__texto">
+            <p>Desarrollado por Nicolás Rodríguez</p>
+            <p>Alura Latam - 2024</p>
+        </div>
+    </footer>
+    
+    <script src="js/mostrarProductos.js" type="module"></script>
+    <script src="js/crearProducto.js" type="module"></script>
+
+</body>
+</html>

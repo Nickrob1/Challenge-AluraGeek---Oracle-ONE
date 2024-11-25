@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "id": "20",
+      "nombre": "Gameboy",
+      "precio": "90,00",
+      "imagen": "image 3"
+    },
+    {
+      "id": "21",
+      "nombre": "Game Boy Classic",
+      "precio": "20,00",
+      "imagen": "image 2"
+    },
+    {
+      "id": "22",
+      "nombre": "Game Boy Classic",
+      "precio": "20,00",
+      "imagen": "image 3"
+    },
+    {
+      "id": "23",
+      "nombre": "Game Boy Classic",
+      "precio": "20,00",
+      "imagen": "image 2"
+    },
+    {
+      "id": "24",
+      "nombre": "Game Boy Classic",
+      "precio": "20,00",
+      "imagen": "image 3"
+    }
+  ]
+}
