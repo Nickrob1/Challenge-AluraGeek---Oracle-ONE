@@ -32,6 +32,7 @@ header {
     padding: 60px;
     display: flex;
     margin-bottom: 40px;
+    justify-content: space-around;
 }
 
 .productos {
